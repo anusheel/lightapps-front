@@ -7,23 +7,23 @@ export default function Header() {
         <ul className="flex space-x-4">
           <li>
             <Link href="/">
-              <a>Home</a>
+              <button>Home</button>
             </Link>
           </li>
           <li>
             <Link href="/showcase">
-              <a>Showcase</a>
+              <button>Showcase</button>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <a>Contact Us</a>
+              <button>Contact Us</button>
             </Link>
           </li>
         </ul>
       </nav>
       <Link href="/">
-        <a className="text-2xl font-bold">Lightapps</a>
+        <button className="text-2xl font-bold">Lightapps</button>
       </Link>
     </header>
   );
